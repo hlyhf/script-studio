@@ -50,6 +50,17 @@ script-studio\scripts\install.bat            # 装到 %USERPROFILE%\.hermes\skil
 
 SkillHub 用户：直接上传 `skill/script-studio/` 目录（SKILL.md + references/），平台按技能市场规范加载。
 
+## 工具脚本用法
+
+`scripts/` 下两个纯标准库工具（Python 3.8+，零依赖），用于交付前的质量门禁与版权保护：
+
+| 脚本 | 用途 | 常用调用 |
+|---|---|---|
+| `word_count.py` | 单集门禁校验器：CJK 字数 / 场景数 / 同集复读 / 对话占比 / 付费卡点 🔒 / H1 违禁词 | `python3 scripts/word_count.py 单集.md`<br>`python3 scripts/word_count.py ./单集目录/`<br>`python3 scripts/word_count.py 龙裔_*.md --min-cjk 1200 --max-cjk 1500` |
+| `watermark.py` | 双层隐含版权水印（L1 HTML 注释 + L2 零宽字符）：应用 / 校验，幂等 | `python3 scripts/watermark.py`（全库重打）<br>`python3 scripts/watermark.py --verify`（只校验不写） |
+
+> 详见各脚本 docstring。`word_count.py` 单文件/目录/glob 三种目标形式，批量模式自动跨集整行指纹去重；`watermark.py` 的 `--verify` 子命令位置不敏感，放前放后均可。
+
 ## 多 Agent 平台使用
 
 完整适配矩阵见 [`docs/agent-adapters.md`](docs/agent-adapters.md)。各平台最低通用做法：

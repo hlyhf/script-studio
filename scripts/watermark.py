@@ -10,11 +10,13 @@
      但复制后在源码中可检出。
 
 用法:
-  python watermark.py --apply [根目录]     # 向全部 *.md 写入水印(幂等)
-  python watermark.py --verify [根目录]    # 校验水印完整性, 打印报告
+  python watermark.py                    # 默认: 重打全库水印(apply)
+  python watermark.py --verify           # 只校验, 不写文件
+  python watermark.py --verify <根目录>  # 指定根目录校验
+  python watermark.py <根目录> --verify  # 同上, 顺序不敏感(子命令放后也可)
 默认根目录: 脚本所在仓库根。
 """
-import sys, pathlib
+import sys, argparse, pathlib
 
 VER = "2.2.0"
 OWNER = "于海峰(hlyhf)"
@@ -78,10 +80,26 @@ def verify(root: pathlib.Path):
     print(f"verify: {total} 文件 | L1缺失 {miss_l1} | L2缺失 {miss_l2} | {'OK ✅' if ok else 'FAIL ❌'}")
     return ok
 
+def _resolve_root(arg):
+    """arg 为目录或仓库内文件(或省略), 默认落到仓库根(脚本上一级目录)"""
+    if arg:
+        p = pathlib.Path(arg)
+        if p.is_dir():
+            return p
+        if p.is_file():
+            return p.parent
+    return pathlib.Path(__file__).resolve().parent.parent
+
 def main():
-    root = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent.parent
-    root = root if root.is_dir() else root.parent
-    if '--verify' in sys.argv:
+    ap = argparse.ArgumentParser(description="隐含版权水印工具")
+    ap.add_argument('root', nargs='?', help='目标根目录或仓库内任一文件(默认脚本所在仓库根)')
+    ap.add_argument('-v', '--verify', action='store_true',
+                    help='只校验水印完整性, 不写文件(默认是 apply 重打)')
+    args = ap.parse_args()
+
+    # 兼容 "watermark.py --verify <dir>" 与 "watermark.py <dir> --verify" 两种顺序
+    root = _resolve_root(args.root)
+    if args.verify:
         sys.exit(0 if verify(root) else 1)
     apply(root)
     sys.exit(0 if verify(root) else 1)
