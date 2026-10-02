@@ -16,3 +16,7 @@ tmp/
 package-lock.json
 yarn.lock
 .pnpm-store/
+# Python
+__pycache__/
+*.pyc
+*.pyo
