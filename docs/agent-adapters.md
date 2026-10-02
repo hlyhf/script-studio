@@ -30,7 +30,7 @@
 |---|---|---|
 | `references/02-original-writing.md` | 原创写作方法论 | 必带 |
 | `references/03~06` | 公式/钩子/闭环/节奏 | 推荐 |
-| `references/07-总纲` / `08-精读素材` | 深度方法论（约 250KB） | 容量允许时全带 |
+| `references/07-ai-drama-screenwriting-guide` / `08-close-reading-methodology` | 深度方法论（约 250KB） | 容量允许时全带 |
 
 ## 加载验证（各平台通用）
 
@@ -40,7 +40,7 @@
 
 ## 注意事项
 
-- 各平台对知识库文件大小/数量上限不同：`08-精读素材_核心方法论.md` 约 207KB，
+- 各平台对知识库文件大小/数量上限不同：`08-close-reading-methodology.md` 约 207KB，
   若超限可拆分（按章节切成 3~4 段）再传。
 - 不同平台渲染 markdown 注释（`<!-- -->`）行为不同，不影响正文使用。
 - 技能内的验收清单（SKILL.md 十二章 / Verification）为平台无关文本，可直接抄入各平台规则区。

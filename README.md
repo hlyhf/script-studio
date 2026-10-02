@@ -21,8 +21,8 @@
 │       ├── 04-hooks-3sec.md             # 3秒开场钩子五式
 │       ├── 05-episode-writing.md        # 逐集写作闭环
 │       ├── 06-rhythm-formulas.md        # 节奏公式库
-│       ├── 07-AI漫剧短剧剧本创作完整总纲.md
-│       ├── 08-精读素材_核心方法论.md
+│       ├── 07-ai-drama-screenwriting-guide.md
+│       ├── 08-close-reading-methodology.md
 │       ├── COPYRIGHT.md                 # 版权说明
 │       └── LICENSE.md                   # MIT 许可
 ├── docs/agent-adapters.md      # 多 Agent 平台适配矩阵（Hermes/DeepSeek/豆包/元宝/WorkBuddy/OpenClaw/RAG）

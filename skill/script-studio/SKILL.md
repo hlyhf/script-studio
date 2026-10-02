@@ -189,8 +189,8 @@ metadata:
 | 3秒开场钩子 | `references/04-hooks-3sec.md` |
 | 逐集写作闭环 | `references/05-episode-writing.md` |
 | 节奏公式库 | `references/06-rhythm-formulas.md` |
-| 剧本方法论总纲 | `references/07-AI漫剧短剧剧本创作完整总纲.md` |
-| 精读素材核心方法论 | `references/08-精读素材_核心方法论.md` |
+| 剧本方法论总纲 | `references/07-ai-drama-screenwriting-guide.md` |
+| 精读素材核心方法论 | `references/08-close-reading-methodology.md` |
 | 版权说明 | `references/COPYRIGHT.md` |
 | 许可条款 | `references/LICENSE.md` |
 

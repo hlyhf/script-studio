@@ -13,8 +13,8 @@
 | `references/04-hooks-3sec.md` | 3秒开场钩子五式 |
 | `references/05-episode-writing.md` | 逐集写作闭环 |
 | `references/06-rhythm-formulas.md` | 节奏公式库 |
-| `references/07-AI漫剧短剧剧本创作完整总纲.md` | 剧本方法论总纲 |
-| `references/08-精读素材_核心方法论.md` | 精读素材核心方法论 |
+| `references/07-ai-drama-screenwriting-guide.md` | 剧本方法论总纲 |
+| `references/08-close-reading-methodology.md` | 精读素材核心方法论 |
 
 > 以上资源已作为灵析剧创内部知识库整合进本包，随技能包一起分发，使用时无需任何外部路径。
 
