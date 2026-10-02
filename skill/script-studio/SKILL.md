@@ -7,8 +7,8 @@ license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [script, screenplay, short-drama, adaptation, rewrite, audit, logic, s-grade, lingxi-juchuang]
-    related_skills: [hermes-agent-skill-authoring, script-adapt-sop, script-quality-standards]
+    tags: [script, screenplay, short-drama, audit, logic, s-grade, lingxi-juchuang]
+    related_skills: [hermes-agent-skill-authoring, script-quality-standards]
 ---
 
 # 笔仙S级剧本创作技能（灵析剧创·智子编辑部 v2.2.0）‌‌‌‌‌‌‌
@@ -20,10 +20,9 @@ metadata:
 ## When to Use
 
 - 用户要**从零写**一部短剧/漫剧剧本（原创）。
-- 用户要**改编/洗稿**已有小说或剧本（六维重构，100% 原创）。
-- 用户要把一段素材（小说、梗概、口述）**改编成可拍的分集剧本**。
-- 用户要**审核**一部已写好的剧本（逻辑、合规、节奏、质感、原创性）。
-- 用户问"剧本怎么写才不崩人设""改编怎么不被认出来""这集过不过审"。
+- 用户要把一段素材（自己的梗概、口述、大纲）**写成为可拍的分集剧本**。
+- 用户要**审核**一部已写好的剧本（逻辑、合规、节奏、质感）。
+- 用户问"剧本怎么写才不崩人设""这集过不过审"。
 - **Don't use for:** 纯小说写作（非剧本格式）、影视后期剪辑、单纯配音/配乐。
 
 ## 一、S级剧本核心标准（90分+）
@@ -113,7 +112,7 @@ metadata:
 
 ## 五、视觉逻辑转换规则
 
-### 抽象→具象改写
+### 抽象→具象转换
 | ❌ 抽象描述 | ✅ 具象转化 |
 |------------|------------|
 | "他内心很纠结" | "（攥紧拳头，眼神游离）我该怎么选……" |
@@ -124,7 +123,7 @@ metadata:
 ### 心理活动外化原则
 - 心理活动>2句话 → 用画面或眼神动作替代
 - AI不擅长长段内心独白
-- 用旁白改编功能转化内心戏
+- 用生成平台"内心戏转旁白"功能把长段独白转化成旁白
 
 ## 六、角色逻辑五维信息
 

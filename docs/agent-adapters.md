@@ -7,7 +7,7 @@
 
 | Agent 平台 | 加载方式 | 触发词示例 |
 |---|---|---|
-| **Hermes Agent** | 拷入 skills 目录（`scripts/install.sh` / `install.bat`），自动技能路由 | "原创剧本""改编剧本""审核剧本" |
+| **Hermes Agent** | 拷入 skills 目录（`scripts/install.sh` / `install.bat`），自动技能路由 | "原创剧本""审核剧本" |
 | **Claude Code** | 将 `skill/script-studio/` 拷入项目 `.claude/skills/`；或在 `CLAUDE.md` 中引用 `SKILL.md` 路径 | 同上 |
 | **Cursor** | 将 `SKILL.md` 全文放入项目 `.cursor/rules/script-studio.mdc`（或 `.cursorrules`）；references/ 按需 @ 引用 | 同上 |
 | **DeepSeek（智能体/ Harness）** | 将 `SKILL.md` 全文粘贴为智能体"人设与回复逻辑"；`references/*.md` 上传为知识库文件 | 同上 |
@@ -28,7 +28,7 @@
 
 | 文件 | 作用 | 建议 |
 |---|---|---|
-| `references/02-original-writing.md` | 原创/改编方法论 | 必带 |
+| `references/02-original-writing.md` | 原创写作方法论 | 必带 |
 | `references/03~06` | 公式/钩子/闭环/节奏 | 推荐 |
 | `references/07-总纲` / `08-精读素材` | 深度方法论（约 250KB） | 容量允许时全带 |
 

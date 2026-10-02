@@ -7,8 +7,7 @@
 单集节奏四拍、视觉逻辑转换、角色五维、AI死穴对冲、逐集创作闭环，内置 8 个知识库
 文档（约 270KB），零外部依赖、零绝对路径、跨平台可复用。
 
-**隐含版权水印**：全库嵌入双层水印（HTML 注释 + 零宽字符，渲染不可见、源码可验），
-版权所有人于海峰(hlyhf)，作为版权保护证据（见 `scripts/watermark.py`）。
+
 
 ## 目录结构
 
@@ -43,18 +42,18 @@
 
 完整适配矩阵见 [`docs/agent-adapters.md`](docs/agent-adapters.md)。各平台最低通用做法：
 
-| 平台 | 加载方式 |
-|---|---|
-| Hermes Agent | `scripts/install.sh` / `install.bat` 拷入 skills 目录 |
-| Claude Code | 拷入 `.claude/skills/`；或在 `CLAUDE.md` 引用 `SKILL.md` |
-| Cursor | `SKILL.md` 全文放入 `.cursor/rules/script-studio.mdc` |
-| DeepSeek / 豆包 / 元宝 | 智能体人设粘贴 `SKILL.md`；`references/*.md` 上传为知识库 |
-| WorkBuddy / OpenClaw | 整拷 `skill/script-studio/`，或按知识库方式上传 |
+| 平台                   | 加载方式                                              |
+| -------------------- | ------------------------------------------------- |
+| Hermes Agent         | `scripts/install.sh` / `install.bat` 拷入 skills 目录 |
+| Claude Code          | 拷入 `.claude/skills/`；或在 `CLAUDE.md` 引用 `SKILL.md` |
+| Cursor               | `SKILL.md` 全文放入 `.cursor/rules/script-studio.mdc` |
+| DeepSeek / 豆包 / 元宝   | 智能体人设粘贴 `SKILL.md`；`references/*.md` 上传为知识库       |
+| WorkBuddy / OpenClaw | 整拷 `skill/script-studio/`，或按知识库方式上传               |
 
 ## 使用触发
 
 - "帮我从零写一部短剧剧本" / "原创剧本"
-- "把这个小说改编成分集剧本"
+- "把我的故事梗概写成分集剧本"
 - "审核一下这部剧本的逻辑和合规"
 
 技能自动加载：S级双模块评分标准 → 集前四问 → 逐集创作闭环 → 质量红线 → 验收清单。
