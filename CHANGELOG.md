@@ -7,7 +7,7 @@
 ### Added
 - **多 Agent 平台通用化**：`docs/agent-adapters.md` 适配矩阵（Hermes / Claude Code / Cursor / DeepSeek / 豆包 / 腾讯元宝 / WorkBuddy / OpenClaw / 自建RAG）
 - **隐含版权水印**：`scripts/watermark.py` 双层水印（L1 HTML注释 + L2 零宽字符嵌入#标题行，渲染不可见/源码可验），版权所有人于海峰(hlyhf)，全库17文件已打
-- **GitHub 资料层**：`examples/示例_单集剧本格式示范.md`、`docs/agent-adapters.md`、`CONTRIBUTING.md`
+- **GitHub 资料层**：`examples/episode-format-example.md`、`docs/agent-adapters.md`、`CONTRIBUTING.md`
 - **通用工具脚本**：`scripts/word_count.py`（跨平台单集门禁校验器，纯标准库，CJK/场景/复读/对话占比/付费卡点/H1 一键校验）
 
 ### Changed
