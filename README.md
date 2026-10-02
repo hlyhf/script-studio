@@ -38,6 +38,18 @@
 └── .gitignore
 ```
 
+## 快速安装
+
+```bash
+git clone https://github.com/hlyhf/script-studio.git
+# Linux / macOS
+./script-studio/scripts/install.sh            # 装到 ~/.hermes/skills/
+# Windows
+script-studio\scripts\install.bat            # 装到 %USERPROFILE%\.hermes\skills\
+```
+
+SkillHub 用户：直接上传 `skill/script-studio/` 目录（SKILL.md + references/），平台按技能市场规范加载。
+
 ## 多 Agent 平台使用
 
 完整适配矩阵见 [`docs/agent-adapters.md`](docs/agent-adapters.md)。各平台最低通用做法：

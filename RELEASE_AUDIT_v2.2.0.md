@@ -35,7 +35,7 @@
 
 ## 三、发布前人工复核点（发布时执行）
 
-1. README 中 `git clone https://github.com/<org>/script-studio.git` 的 `<org>` 占位 → 换成真实账号
+1. README 中 `git clone https://github.com/hlyhf/script-studio.git` 的 `<org>` 占位 → 真实账号 `hlyhf`
 2. SkillHub 上传：`skill/script-studio/` 整目录（含 SKILL.md + references/），或按平台 zip 包规范
 3. 发布后跑一次 `python scripts/watermark.py --verify` 确认分发后水印未剥除
 
