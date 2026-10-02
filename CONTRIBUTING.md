@@ -24,6 +24,6 @@
 ```bash
 python3 scripts/word_count.py --dir skill/script-studio/examples   # 示例集过门禁
 python3 scripts/watermark.py --verify                               # 水印完整性
-grep -rn "D:/" . || echo "无本机绝对路径"                              # 可移植性
+grep -rniE "[CD]:" . || echo "无本机绝对路径"                          # 可移植性(盘符检测)
 ```
 <!-- © 灵析剧创·智子编辑部 | 版权所有人: 于海峰(hlyhf) | script-studio v2.2.0 | WM-001 -->
