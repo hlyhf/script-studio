@@ -1,0 +1,18 @@
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# 临时文件
+*.tmp
+*.bak
+tmp/
+
+# 本机安装痕迹（技能包本身无依赖，无需 lock 文件）
+package-lock.json
+yarn.lock
+.pnpm-store/
