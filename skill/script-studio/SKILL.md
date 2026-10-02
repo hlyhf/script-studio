@@ -1,7 +1,7 @@
 ---
 name: script-studio
-description: 笔仙S级剧本创作技能（灵析剧创·智子编辑部 v2.1.0）。含爆款公式/3秒开场钩子/集前四问/视觉逻辑/角色五维/AI死穴对冲，确保每集达到S级90分以上。
-version: 2.1.0
+description: 笔仙S级剧本创作技能（灵析剧创·智子编辑部 v2.2.0）。含爆款公式/3秒开场钩子/集前四问/视觉逻辑/角色五维/AI死穴对冲，确保每集达到S级90分以上。
+version: 2.2.0
 author: 灵析剧创 · 智子编辑部 (Hermes Agent)
 license: MIT
 platforms: [linux, macos, windows]
@@ -11,11 +11,11 @@ metadata:
     related_skills: [hermes-agent-skill-authoring, script-adapt-sop, script-quality-standards]
 ---
 
-# 笔仙S级剧本创作技能（灵析剧创·智子编辑部 v2.1.0）
+# 笔仙S级剧本创作技能（灵析剧创·智子编辑部 v2.2.0）‌‌‌‌‌‌‌
 
 > 灵析剧创·智子编辑部 S级剧本创作方法论（2026-09-14），含爆款公式、剧本方法论、精读素材核心要点。
 > 目标：确保每集创作达到S级90分以上标准。
-> 版权：© 灵析剧创 · 智子编辑部 · 版权所有 ｜ 版本 v2.1.0
+> 版权：© 灵析剧创 · 智子编辑部 · 版权所有 ｜ 版本 v2.2.0
 
 ## When to Use
 
@@ -200,23 +200,23 @@ metadata:
 ## 十二、版权与创作工具署名（强制）
 
 ### 12.1 技能版权
-- 本技能（框架/流程/方法论整合）版权：**© 灵析剧创 · 智子编辑部 · 版权所有**，版本 **v2.1.0**（MIT 许可，详见 `references/COPYRIGHT.md` 与 `references/LICENSE.md`）
+- 本技能（框架/流程/方法论整合）版权：**© 灵析剧创 · 智子编辑部 · 版权所有**，版本 **v2.2.0**（MIT 许可，详见 `references/COPYRIGHT.md` 与 `references/LICENSE.md`）
 
 ### 12.2 生成作品的工具署名（每部作品必做，缺一即验收FAIL）
 使用本技能创作的剧本（md 单集稿 / docx 成品 / 平台投稿版），成品必须附带创作工具声明：
 
 **标准声明行：**
 ```
-创作工具：灵析剧创 · 智子编辑部 · 剧本创作技能 script-studio v2.1.0（Hermes Agent）
+创作工具：灵析剧创 · 智子编辑部 · 剧本创作技能 script-studio v2.2.0（Hermes Agent）
 ```
 
 **完整版声明块（docx 信息页 / md 总纲信息页末尾）：**
 ```
 【创作工具声明】
 本作品使用「灵析剧创 · 智子编辑部 · 剧本创作技能」创作完成。
-工具：Hermes Agent / script-studio 技能 v2.1.0
+工具：Hermes Agent / script-studio 技能 v2.2.0
 © 灵析剧创 · 智子编辑部 · 版权所有
-创作日期：YYYY-MM-DD ｜ 技能版本：v2.1.0
+创作日期：YYYY-MM-DD ｜ 技能版本：v2.2.0
 ```
 
 **放置位置（按成品类型选1处）：**
@@ -240,3 +240,4 @@ metadata:
 - [ ] 无双列重复人物列表（229处问题已修复）
 - [ ] 无模板化内心独白（578处问题已修复）
 - [ ] 双模块评分：观众≥82 AND 评审≥86
+<!-- © 灵析剧创·智子编辑部 | 版权所有人: 于海峰(hlyhf) | script-studio v2.2.0 | WM-001 -->
