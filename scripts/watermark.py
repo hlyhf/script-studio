@@ -25,7 +25,7 @@ ZW = "\u200c" * 7            # 零宽不连字符 x7 = 版权指纹
 
 def targets(root: pathlib.Path):
     pats = ["skill/**/*.md", "docs/**/*.md", "examples/**/*.md",
-            "README.md", "CONTRIBUTING.md", "CHANGELOG.md", "LICENSE"]
+            "README.md", "README.en.md", "CONTRIBUTING.md", "CHANGELOG.md", "LICENSE"]
     seen = set()
     for p in pats:
         for f in root.glob(p):

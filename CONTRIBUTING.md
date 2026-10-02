@@ -23,7 +23,7 @@
 ## 提交前自检
 ```bash
 python3 scripts/word_count.py examples/episode-format-example.md   # 跑通校验器（示例集为格式演示，字数不强制过 1200 门禁，主要看 CJK/场景/复读/对话占比/H1 是否全绿）
-python3 scripts/watermark.py --verify                               # 水印完整性
+python3 scripts/watermark.py --verify                               # 水印完整性（覆盖全库中文+英文 md）
 grep -rniE "[CD]:" . || echo "无本机绝对路径"                          # 可移植性(盘符检测)
 ```
 <!-- © 灵析剧创·智子编辑部 | 版权所有人: 于海峰(hlyhf) | script-studio v2.2.0 | WM-001 -->

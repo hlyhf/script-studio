@@ -1,5 +1,7 @@
 # script-studio · 灵析剧创 S级剧本创作技能‌‌‌‌‌‌‌
 
+> **🌐 Language / 语言**: [中文](README.md) ｜ [English](README.en.md)
+
 > © 灵析剧创 · 智子编辑部 · 版权所有
 > 版本：v2.2.0 ｜ 许可：MIT ｜ 多 Agent 通用（Hermes / DeepSeek / 豆包 / 元宝 / WorkBuddy / OpenClaw …）
 
@@ -25,7 +27,8 @@
 │       ├── 08-close-reading-methodology.md
 │       ├── COPYRIGHT.md                 # 版权说明
 │       └── LICENSE.md                   # MIT 许可
-├── docs/agent-adapters.md      # 多 Agent 平台适配矩阵（Hermes/DeepSeek/豆包/元宝/WorkBuddy/OpenClaw/RAG）
+├── docs/agent-adapters.md      # 多 Agent 平台适配矩阵（中文）
+├── docs/en/agent-adapters.md   # 多 Agent 平台适配矩阵（English）
 ├── examples/                   # 原创格式示范（演示铁律，非可交付成品）
 ├── scripts/
 │   ├── install.sh              # Linux/macOS 一键安装
@@ -35,6 +38,7 @@
 ├── LICENSE                     # 根许可（MIT）
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
+├── README.en.md                # English README
 └── .gitignore
 ```
 
